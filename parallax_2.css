@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#container
+{
+    width: 1000px;
+    height: 470px;
+    border: 2px solid black;
+    margin: 3% auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#832814, #e0533f, #ec725c);
+}
+
+#layerOne
+{
+    object-fit: contain;
+    width: 1000px;
+    height : 500px;
+    position: absolute;
+    left: 0;
+    top: 31%;
+    z-index: 10;
+}
+
+#layerTwo
+{
+    object-fit: contain;
+    width: 1000px;
+    height : 500px;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    z-index: 9;
+}
+
+#layerThree
+{
+    position: absolute;
+    object-fit: contain;
+    width: 1000px;
+    height : 500px;
+    top: 29%;
+    left : 0;
+    z-index: 8;   
+}
+
+#layerFour
+{
+    object-fit: contain;
+    width: 1000px;
+    height : 500px;
+    position: absolute;
+    left: 0;
+    top: 28%;
+    z-index: 7;
+}
+
+#layerFive
+{
+    position: absolute;
+    object-fit: contain;
+    width: 1000px;
+    height : 500px;
+    left: 0;
+    top: 27%;
+    z-index: 6;
+}
+
+#layerSix
+{
+    position: absolute;
+    object-fit: contain;
+    width: 1000px;
+    height : 500px;
+    left: 0;
+    top: 26%;
+    z-index: 5;
+}
